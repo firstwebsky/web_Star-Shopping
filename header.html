@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/header.css">
+  <script src="js/jquery-3.2.1.js"></script>
+</head>
+<body>
+  <div class="head_top">
+    <a href="#">星空购物首页</a>
+    <a href="#">您好，请登录</a>
+    <a href="#">注册</a>
+    <a href="#">
+      <img src="images/wap.gif" alt="这是图片">掌上星空
+    </a>
+  </div>
+  <div class="head_top_nav">
+    <img src="images/logo.gif" alt="这是个图片">
+    <div class="head_top_nav_center">
+      <div>
+          <input type="text" placeholder="请输入商品名称">
+          <button>搜索</button>
+      </div>
+      <div>
+        <b>热门搜索：</b>
+        <a href="#">表</a>
+        <a href="#">酒</a>
+        <a href="#">洗衣机</a>
+        <a href="#">箱包</a>
+        <a href="#">床品</a>
+        <a href="#">美妆</a>
+        <a href="#">鞋</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <div>
+        <a data-trigger="dropdown" href="#">我的星空</a>
+        <a href="#" class="scar">我的购物车</a>
+      </div>
+      
+      <div class="dropdown-menu">
+        <div>您好，请 
+          <a href="#">登录</a> | 
+          <a href="#">注册</a>
+        </div>
+        <div>
+          <a href="#">我的订单</a> | 
+          <a href="#">待支付</a>
+        </div>
+        <div>
+          <a href="#">待收货</a> | 
+          <a href="#">我的星空金币</a>
+        </div>
+      </div>
+    </div>
+    <img src="images/tel.gif" alt="这是图片">
+  </div>
+  <script>
+    $(".dropdown-menu").hide();
+    $("[data-trigger=dropdown],.dropdown-menu")
+    .mouseover(function(){
+      $(".dropdown-menu").show();
+    })
+    .mouseout(function(){
+      $(".dropdown-menu").hide();
+    });
+    
+  </script>
+</body>
+</html>

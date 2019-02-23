@@ -1,0 +1,170 @@
+*{
+  margin:0;
+  padding:0;
+}
+/* 最顶上 */
+.head_top:first-child>a{
+  color:#8c8c8c;
+  line-height:30px;
+  text-decoration: none;
+  font-size:14px;
+  display:block;
+  float:left;
+}
+.head_top:first-child>a:hover{
+  color:#ca151e;
+}
+.head_top{
+  width:100%;
+  background:#fafafa;
+}
+.head_top a:first-child{
+  margin-left:340px;
+}
+.head_top a:nth-child(2){
+  margin-left:850px;
+}
+.head_top a:nth-child(3){
+  margin-left:10px;
+}
+.head_top a:last-child{
+  margin-left:50px;
+}
+.head_top::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+/* logo及同行 */
+.head_top_nav{
+  border:1px solid red;
+  width:1240px;
+  margin:30px auto;
+  position: relative;
+}
+.head_top_nav>div input{
+  outline: medium;
+  width:340px;
+  height:31px;
+  border:2px solid #ca141d;
+  text-indent:12px;
+}
+.head_top_nav_center{
+  width:403px;
+  margin-left:345px;
+}
+.head_top_nav>div button{
+  outline:medium;
+  width:60px;
+  height:35px;
+  background:#ca141d;
+  border:2px solid #ca141d;
+  margin-left:-2px;
+  color:white;
+  position: absolute;
+ 
+}
+.head_top_nav>div button:hover{
+  background:#d23333;
+  cursor: pointer;
+}
+.head_top_nav>div>div>a,b{
+  text-decoration: none;
+  font-size:14px;
+  color:#8c8c8c;
+  font-weight: normal;
+  margin-left:15px;
+}
+.head_top_nav img:first-child{
+  position: absolute;
+  top:0px;
+  left:0px;
+}
+.head_top_nav img:last-child{
+  position: absolute;
+  top:10px;
+  right:0px;
+}
+/* 我的星空和购物车 */
+.head_top_nav .dropdown{
+  position: absolute;
+  top:7px;
+  left:460px;
+  width:200px;
+  height:200px;
+  
+  margin-left:400px;
+  font-size:13px;
+  color:#8c8c8c;
+}
+.head_top_nav .dropdown .scar{
+  margin-left: 15px;
+}
+.head_top_nav .dropdown a{
+  text-decoration:none;
+  color:#221d1d;
+}
+.head_top_nav .dropdown a:hover{
+  color:red;
+}
+.head_top_nav .dropdown .dropdown-menu>div:nth-child(2) a:first-child{
+  margin-right:17px;
+}
+.head_top_nav .dropdown .dropdown-menu>div:nth-child(2) a:nth-child(2){
+  margin-left: 30px;
+  margin-right: 22px;
+}
+.head_top_nav .dropdown .dropdown-menu>div:nth-child(3) a:first-child{
+  margin-right: 20px;
+  margin-left: 8px;
+}
+.head_top_nav .dropdown .dropdown-menu>div:nth-child(3) a:nth-child(2){
+  margin-left:10px;
+}
+.head_top_nav .dropdown>div:first-child{
+  height:30px;
+  line-height: 30px;
+  border:1px solid #8c8c8c;
+}
+.head_top_nav .dropdown-menu>div{
+  height:35px;
+  width:200px;
+}
+.dropdown-menu{
+  margin-top:-6px;
+  
+}
+
+.head_top_nav .dropdown-menu>div:first-child{
+  width:200px;
+  text-align:center;
+  line-height: 35px;
+}
+.head_top_nav .dropdown-menu>div:first-child~div{
+  height:50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.head_top_nav .dropdown>div:first-child a:first-child{
+  border-right: 1px solid #8c8c8c;
+  padding-right: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

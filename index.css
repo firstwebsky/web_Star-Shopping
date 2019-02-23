@@ -1,0 +1,8 @@
+<!--导航-->
+body #head_nav{
+  width:800px;
+  height:400px;
+  border:1px solid red;
+  background:red;
+
+}
